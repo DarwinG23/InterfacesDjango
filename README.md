@@ -1,4 +1,3 @@
 # InterfacesDjango
-frameworks
-djgango
+
 
