@@ -1,0 +1,21 @@
+# Ignorar archivos y directorios generados automáticamente por Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar archivos y directorios generados automáticamente por PyCharm
+.idea/
+*.sqlite3
+
+# Ignorar archivos generados por migraciones de Django
+/mysite/db.sqlite3
+/mysite/mysite/__pycache__/
+/mysite/mysite/settings/__pycache__/
+/mysite/mysite/settings/migrations/
+/mysite/mysite/settings/__init__.pyc
+/mysite/mysite/settings/local.py
+/mysite/mysite/settings/local.pyc
+
+# Ignorar el directorio del entorno virtual (si se usa virtualenv o similar)
+/venv/

@@ -1,0 +1,91 @@
+<html lang="en">
+
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/stylePrincipal.css' %}">
+    <link rel="stylesheet"
+    href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Menu</title>
+</head>
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+            </div>
+            <span class="logo_name">UNL</span>
+        </div>
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="#">
+                    <i class="uil uil-estate"></i>
+                    <span class="link-name">Menu</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-newspaper"></i>
+                    <span class="link-name">Noticias</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-black-berry"></i>
+                    <span class="link-name">Deportes</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-message"></i>
+                    <span class="link-name">Notificaciones</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-skip-forward"></i>
+                    <span class="link-name">Videos/Shorts</span>
+                </a></li>
+            </ul>
+
+            <ul class="logout-mode">
+                <li><a href="/">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Cerrar Sesión</span>
+                </a></li>
+
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Buscar...">
+            </div>
+        </div>
+
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-arrow-left-right"></i>
+                    <span class="text">Encuentros de hoy</span>
+                </div>
+
+                <div class="boxes">
+                    <div class="box box1">
+                        <i class="uil uil-trophy"></i>
+                        <span class="number">7am a 8am</span>
+                        <span class="text">Primer Ciclo vs Septimo Ciclo</span>
+                    </div>
+                    <div class="box box2">
+                        <i class="uil uil-trophy"></i>
+                        <span class="number">9am a 10am</span>
+                        <span class="text">Segundo A vs Cuarto B</span>
+                    </div>
+                    <div class="box box3">
+                        <i class="uil uil-trophy"></i>
+                        <span class="number">12pm a 1pm</span>
+                        <span class="text">Ingenieros vs Estudiantes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
