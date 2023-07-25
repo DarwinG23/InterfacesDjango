@@ -1,0 +1,8 @@
+El proyecto Django se encuentra en la rama "master" del repositorio. Se ha utilizado el archivo .gitignore para que pueda ejecutarse en cualquier máquina. Al abrir el proyecto con PyCharm, antes de todo, se debe escribir los siguientes comandos en la terminal del IDE:
+
+1) python -m venv myenv
+2) .\myenv\Scripts\Activate
+3) pip install django
+4) python manage.py migrate
+5) python manage.py runserver 
+
